@@ -1,0 +1,35 @@
+html{
+  background:#98DDC1;
+  color:#333;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body{
+  margin:1em;
+  padding:1em;
+  background:#fff;
+  border:1px solid #4BC493;
+  border-radius:5px;
+}
+
+pre{
+  background:#444;
+  padding:1em;
+  color:#fff;
+  font-family:Monaco, monospace;
+  line-height:1.5;
+  border:1px solid #ddd;
+  border-radius:3px;
+  overflow:scroll;
+}
+
+.t--bg{
+  transition: all 1s;
+}
+
+.t--bg:hover{
+  background:blue;
+  color:#fff;
+  padding-left:30px;
+  padding-right:100px;
+}
