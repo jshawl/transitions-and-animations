@@ -33,3 +33,72 @@ pre{
   padding-left:30px;
   padding-right:100px;
 }
+
+.t--timing-functions > div{
+  position:relative;
+}
+
+#t--timing + .t--timing-functions > div {
+  background:red;
+  color:#fff;
+  padding:10px;
+  width:100px;
+  left:0;
+  transition-duration:2s;
+  transition-property:all;
+}
+
+.t--timing-functions .ease {
+  transition-timing-function:ease;
+}
+
+.t--timing-functions .ease-in {
+  transition-timing-function:ease-in;
+}
+
+.t--timing-functions .ease-out {
+  transition-timing-function:ease-out;
+}
+
+.t--timing-functions .ease-in-out {
+  transition-timing-function:ease-in-out;
+}
+
+.t--timing-functions .linear {
+  transition-timing-function:linear;
+}
+
+.t--timing-functions .step-start {
+  transition-timing-function:step-start;
+}
+
+.t--timing-functions .step-end {
+  transition-timing-function:step-end;
+}
+
+.t--timing-functions .steps {
+  transition-timing-function:steps(10, end);
+}
+
+#t--timing:checked + .t--timing-functions > div {
+  background:blue; 
+  left:100%;
+  transform:translateX(-100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
